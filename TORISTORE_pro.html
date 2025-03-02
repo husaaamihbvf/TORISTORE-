@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TORISTORE - تواصل معنا</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Tajawal', sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #ff9966, #ff5e62);
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+        .container {
+            max-width: 450px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+            color: #333;
+        }
+        .container::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+        }
+        .container::after {
+            content: '';
+            position: absolute;
+            bottom: -50px;
+            right: -50px;
+            width: 120px;
+            height: 120px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            color: #222;
+            font-size: 26px;
+            font-weight: bold;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: 0.3s ease-in-out;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .button i {
+            margin-right: 10px;
+        }
+        .whatsapp { background: #25D366; }
+        .facebook { background: #1877F2; }
+        .instagram { background: #E4405F; }
+        .button:hover {
+            transform: scale(1.08);
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="logo.png" alt="TORISTORE Logo">
+        <h1>مرحبًا بكم في TORISTORE</h1>
+        <p>تواصل معنا عبر الروابط التالية:</p>
+        
+        <a href="https://wa.me/212601457912?text=أرغب%20في%20طلب%20منتج" class="button whatsapp">
+            <i class="fab fa-whatsapp"></i> طلب المنتج عبر واتساب
+        </a>
+        <a href="https://www.facebook.com/share/1KHi2BpmbF/" class="button facebook">
+            <i class="fab fa-facebook"></i> صفحتنا على فيسبوك
+        </a>
+        <a href="https://www.instagram.com/toristorre/profilecard/?igsh=MWxudjU1bmh6MGFtMA==" class="button instagram">
+            <i class="fab fa-instagram"></i> تابعنا على إنستغرام
+        </a>
+    </div>
+
+</body>
+</html>
